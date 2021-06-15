@@ -7,8 +7,12 @@
 @use "base/typography";
 @use "base/utilities";
 
+@use "components/zip-code";
+@use "components/send-button";
+
 @use "pages/home";
 
 @use "layout/header";
 @use "layout/footer";
 @use "layout/navigation";
+@use "layout/services";

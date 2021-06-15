@@ -1,7 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.section__services {
+  position: relative;
 
-  font-family: inherit;
+  display: flex;
+
+  margin-top: -10rem;
+  padding: 10rem 16rem;
+  padding-top: 20rem;
 }

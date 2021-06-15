@@ -1,0 +1,44 @@
+.nav {
+  position: absolute;
+  width: 100vw;
+
+  display: flex;
+  align-items: center;
+
+  padding: 2rem 8.75rem;
+
+  &__logo {
+    height: 70%;
+    &-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      width: 5rem;
+      height: 5rem;
+
+      background-color: #fff;
+      border-radius: 50%;
+    }
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+
+    margin-left: auto;
+  }
+
+  &__link {
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.375em;
+
+    &-wrapper {
+      & + & {
+        margin-left: 3rem;
+      }
+    }
+  }
+}
