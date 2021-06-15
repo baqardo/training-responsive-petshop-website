@@ -10,12 +10,24 @@
     font-size: 3rem;
   }
 
+  &--small {
+    font-size: 2rem;
+  }
+
   &--tiny {
     font-size: 1.5rem;
+  }
+
+  &--slim {
+    font-weight: normal;
   }
 }
 
 .paragraph {
   font-size: 1.5rem;
   line-height: 1.375em;
+
+  &--small {
+    font-size: 1.125rem;
+  }
 }

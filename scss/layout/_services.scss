@@ -1,10 +1,12 @@
 .services {
   &__background {
-    position: absolute;
-    top: 0;
-    left: -30%;
+    &-wrapper {
+      position: absolute;
+      top: 0;
+      left: -30%;
 
-    z-index: -10;
+      z-index: -10;
+    }
   }
 
   &__heading {

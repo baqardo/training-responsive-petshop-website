@@ -43,26 +43,4 @@
       outline: none;
     }
   }
-
-  &__arrow {
-    width: 50%;
-    &-wrapper {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      margin-left: auto;
-
-      width: 4rem;
-      height: 4rem;
-
-      background-color: #ff6752;
-      box-shadow: 0px 3px 6px #fd68454d;
-      border-radius: 50%;
-
-      &:hover {
-        cursor: pointer;
-      }
-    }
-  }
 }
