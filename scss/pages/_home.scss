@@ -20,3 +20,33 @@
   padding: 8rem 10.25rem;
   padding-top: 14rem;
 }
+
+.section__how-to {
+  position: relative;
+
+  display: flex;
+
+  padding: 15.5rem 17.5rem;
+}
+
+.section__fetch {
+  position: relative;
+
+  padding: 0 17.375rem;
+}
+
+.section__trust-us {
+  padding: 6rem 17.375rem;
+}
+
+.footer {
+  position: relative;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  padding: 8rem 8.75rem;
+  padding-bottom: 6rem;
+}

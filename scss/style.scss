@@ -10,6 +10,7 @@
 @use "components/zip-code";
 @use "components/send-button";
 @use "components/arrow";
+@use "components/card";
 
 @use "pages/home";
 
@@ -18,3 +19,6 @@
 @use "layout/navigation";
 @use "layout/services";
 @use "layout/testimonials";
+@use "layout/how-to";
+@use "layout/fetch";
+@use "layout/trust-us";

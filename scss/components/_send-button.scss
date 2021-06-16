@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
 
+  margin-top: 1.5rem;
   padding: 0.5rem;
 
   width: 18.75rem;
@@ -21,6 +22,10 @@
     &::placeholder {
       color: #fff;
     }
+  }
+
+  &--wide {
+    width: 24.875rem;
   }
 
   &__input {

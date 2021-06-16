@@ -1,0 +1,16 @@
+.trust-us {
+  &__title {
+    font-family: "Open Sans", sans-serif;
+    color: #b1bbcd;
+    text-align: center;
+
+    margin-bottom: 3rem;
+  }
+
+  &__companies {
+    width: 100%;
+    &-wrapper {
+      width: 100%;
+    }
+  }
+}

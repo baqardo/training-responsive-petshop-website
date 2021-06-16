@@ -1,0 +1,51 @@
+.how-to {
+  &__paragraph {
+    width: 28rem;
+  }
+
+  &__infographic {
+    position: relative;
+
+    width: 41.5rem;
+  }
+
+  &__explanation {
+    margin-left: auto;
+  }
+
+  &__cta {
+    margin-top: 1.5rem;
+  }
+
+  &__title {
+    margin-bottom: 2.5rem;
+
+    font-family: "Comfortaa", cursive;
+    color: #ff6752;
+  }
+
+  &__right-card {
+    width: min-content;
+    margin-left: auto;
+  }
+
+  &__decoration {
+    &-wrapper {
+      position: absolute;
+      top: 12%;
+      left: 19%;
+
+      z-index: -10;
+    }
+  }
+
+  &__background {
+    &-wrapper {
+      position: absolute;
+
+      z-index: -10;
+      top: -5%;
+      right: -40%;
+    }
+  }
+}
